@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap" rel="stylesheet">
+
+
+</head>
+<style>
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        width: 300px;
+        height: 535px;
+        border-radius: 15px;
+        margin-top: 100px;
+        background-color: #202020;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+
+    .imagem {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mar {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-top: 20px;
+    }
+
+    .text-main {
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        font-size: 25px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .desc {
+        font-family: 'Poppins', sans-serif;
+        color: rgba(216, 216, 216);
+        font-weight: 300;
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .btn {
+        padding: 10px 30px;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        border: none;
+        transition: 1s;
+        background-color: #d4836cbe;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        transition: 1s;
+        background-color: #945c4dbe;
+        color: #fff;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="imagem">
+                <img class="mar" src="../card/Assets/mar-.jpg" alt="mar-jpg">
+            </div>
+            <div class="texto">
+                <h2 class="text-main">viagem</h2>
+                <p class="desc"> Lorem ipsum dolor sit amet,<br> consectetur adipiscing elit, deserunt sequi perferendis eas
+                    harum quaerat cupidatat archiecto reprehenderit <br> valuptas adit, assimenda, fuga doloribus
+                    reiciendis
+                    carporis vero rem incidunt at.</p>
+            </div>
+            <div class="button">
+                <button type="button" class="btn">Comprar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
